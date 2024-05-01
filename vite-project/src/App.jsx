@@ -6,7 +6,7 @@ import WelcomeMessage from "./components/WelcomeMessage";
 
 function App() {
   const [count, setCount] = useState(0);
-  const userName = "Рауль";
+  const userName = "Аида";
 
   return (
     <>
