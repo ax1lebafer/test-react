@@ -6,11 +6,12 @@ import WelcomeMessage from "./components/WelcomeMessage";
 
 function App() {
   const [count, setCount] = useState(0);
-  const userName = "Аида";
+  const userName = "Рауль";
+  const lastName = "";
 
   return (
     <>
-      <WelcomeMessage name={userName} />
+      <WelcomeMessage name={userName} lastname={lastName} />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
